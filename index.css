@@ -1,0 +1,45 @@
+#form{
+           
+    margin: auto;
+border: 1px solid gainsboro;
+width: 39%;
+margin: auto;
+display: flex;
+flex-direction: column;
+padding: 10px;
+margin-top: 30px;
+}
+input[type="text"],
+input[type="number"],
+input[type="url"],
+
+select,
+textarea {
+/* text-align: center; */
+margin: auto;
+width: 50%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type="submit"] {
+text-align: center;
+margin: auto;
+background-color: #2b619e;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+width: 50%;
+font-size: 20px;
+}
+
+input[type="submit"]:hover {
+background-color: #3973b6;
+}
